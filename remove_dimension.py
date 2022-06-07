@@ -8,7 +8,7 @@ def remove_dimension(matrix: array) -> array:
     :param matrix: A given matrix.
     :return: The matrix with less dimensional entry.
     """
-    return np.squeeze(matrix).shape
+    return np.squeeze(matrix)
 
 
 if __name__ == "__main__":
